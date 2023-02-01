@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.toggleIcon{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 4px;
+}
+.toggleButton{
+    border-radius: 45%;
+    border: 1px solid black;
+}
+.cartPrice{
+    width: 18rem;
+}
+@media (max-width:355px){
+    .navBrand{
+        font-size: 20px!important;
+        margin-right: 2px!important;
+    }
+    .signin{
+        height: 20px!important  ;
+        width: 20px!important;
+    }
+    .cart{
+        height: 20px!important;
+        width: 20px!important;  
+        position: relative;
+        top: -5px; 
+    }
+    .cartImage{
+        margin-top: 10px!important;
+    }
+   
+}
+@media(max-width : 280px){
+    .cartPrice{
+        width: 14rem!important;
+    }
+    .CartProduct{
+        width: 16rem!important;
+    }
+}
