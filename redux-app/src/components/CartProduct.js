@@ -27,7 +27,7 @@ function CartProduct({ product}) {
         <div className="card m-2 CartProduct">
           <img src={image} className="mx-auto m-2" alt="..." height="150px"  width="100px"/>
           <div className="card-body d-flex flex-column">
-            <h6 className="card-title fs-7 text-center">{title}</h6>
+            <h6 className="card-title fs-7  text-center">{title.substring(0, 20)}</h6>
             
               <h5 className='text-danger text-center' >${finalPrice}</h5>
               <div className="mx-auto d-flex flex-column">
